@@ -32,3 +32,6 @@
 .form-model {
   max-width: 750px;
 }
+
+@media (min-width: $screen-md-min) {.thumbnail img { height:250px; }}
+@media (min-width: $screen-lg-min) {.thumbnail img { height:250px; }}
